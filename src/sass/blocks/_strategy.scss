@@ -1,0 +1,42 @@
+.strategy{
+    min-height: 620px;
+    background-color: #fff;
+    text-align: center;
+    &__title{
+        padding-top: 53px;
+        padding-bottom: 22px;
+    }
+    &__subtitle{
+        font-size: 21px;
+        font-weight: 400;
+        color:#2e2e2e;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        flex-wrap: wrap;
+    }
+    &__item{
+        &_img{
+            max-width: 362px;
+        }
+        max-width: 362px;
+        &_title{
+            padding-top: 29px;
+            color:$main-color;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        &_subtitle{
+            min-height: 100px;
+            padding-top: 12px;
+            padding-bottom: 60px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+}

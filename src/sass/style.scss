@@ -1,0 +1,30 @@
+@import 'libs/normalize';
+@import 'libs/slick';
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+ max-width: 1140px;
+ margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/advantage';
+@import 'blocks/strategy';
+@import 'blocks/agent';
+@import 'blocks/delivery';
+@import 'blocks/scheme';
+@import 'blocks/buttons';
+@import 'blocks/reviews';
+@import 'blocks/forms';
+
+.line{
+    border-top:1px solid $main-color;
+    width: 150px;
+    margin: 0 auto;
+    padding:0 0 25px 0;
+}

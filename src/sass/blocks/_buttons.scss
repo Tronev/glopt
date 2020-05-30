@@ -1,0 +1,50 @@
+.btn{
+    background-color:$main-color;  
+    border: none;
+    color:#fff;
+    font-size: 12px;
+    line-height: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    &__call{
+        width: 160px;
+        height: 45px; 
+        border-radius: 22px;  
+    }
+    &__header{
+        display: block;
+        height: 60px;
+        width: 230px;
+        margin: 0 auto;
+        border-radius: 30px;  
+    }
+    &__delivery{
+       height: 45px;
+       width: 164px;
+       border-radius: 22px;
+       margin-bottom: 25px;
+    }
+    &__wrapper-form{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 28px;
+        &::after{
+            content: '';
+            padding-right: 20px;
+            background-color:#fff;
+        }
+        &::before{
+            content: '';
+            padding-left: 20px;
+            background-color:#fff;
+        }
+    }
+    &__wrapper-forms{
+        margin-top: 20px;
+    }
+    &__form{
+        width: 182px;
+        border-radius: 22px;
+    }
+}
